@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "1192899752@qq.com"
     },
-    "lastModifiedOn": 1670234546548
+    "lastModifiedOn": 1670234551120
   },
   "creationTag": {
     "versionNumber": 0,
@@ -75,9 +75,23 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "f3cf760722fa4eaf6dc1194181152b644e07f275e3cc793665e6af014bf7838c",
-    "uploadConnection": "dataiku-managed-storage",
     "uploadFSProviderType": "S3",
+    "uploadedConfig": {
+      "bucket": "gis-data-ap-northeast-1",
+      "metastoreSynchronizationEnabled": true,
+      "metastoreDatabaseName": "default",
+      "metastoreTableName": "${projectKey}_bezdekIris_decimal",
+      "connection": "dataiku-managed-storage",
+      "path": "/managed-dss-data/uploads/${projectKey}/bezdekIris_decimal",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "dataiku-managed-storage",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",

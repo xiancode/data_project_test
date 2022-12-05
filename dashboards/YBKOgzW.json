@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "id": "n6bq5O7",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "1192899752@qq.com",
+  "listed": true,
+  "name": "demo\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "1192899752@qq.com"
+    },
+    "lastModifiedOn": 1670234513435
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "1192899752@qq.com"
+    },
+    "lastModifiedOn": 1670234513435
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
